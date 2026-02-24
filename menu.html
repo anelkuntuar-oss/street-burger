@@ -2,44 +2,106 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Меню MK’donals</title>
+<title>Меню - MK’donals</title>
 <style>
-body {
-background:black;
-color:white;
+body{
+margin:0;
 font-family:Arial;
+background:#111;
+color:white;
 text-align:center;
 }
-.item {
+
+nav{
+background:black;
+padding:15px;
+}
+
+nav a{
+color:orange;
+margin:15px;
+text-decoration:none;
+font-size:18px;
+}
+
+h1{
+color:orange;
 margin:20px;
 }
-img {
-width:250px;
-border-radius:10px;
+
+.menu{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+padding:20px;
+}
+
+.card{
+background:#222;
+border-radius:15px;
+width:300px;
+padding:15px;
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:12px;
+}
+
+.price{
+color:orange;
+font-size:20px;
+margin-top:10px;
 }
 </style>
 </head>
 
 <body>
 
-<h1>Наше меню</h1>
+<nav>
+<a href="index.html">Главная</a>
+<a href="menu.html">Меню</a>
+<a href="about.html">О нас</a>
+<a href="contact.html">Контакты</a>
+</nav>
 
-<div class="item">
+<h1>🍔 Наше меню</h1>
+
+<div class="menu">
+
+<div class="card">
 <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd">
-<h3>Бургер</h3>
-<p>1500 ₸</p>
+<div class="price">Бургер — 1800 ₸</div>
 </div>
 
-<div class="item">
+<div class="card">
 <img src="https://images.unsplash.com/photo-1544148103-0773bf10d330">
-<h3>Картошка фри</h3>
-<p>800 ₸</p>
+<div class="price">Картофель фри — 900 ₸</div>
 </div>
 
-<div class="item">
-<img src="https://images.unsplash.com/photo-1551024506-0bccd828d307">
-<h3>Кола</h3>
-<p>600 ₸</p>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1604908176997-4314d6a5b6b1">
+<div class="price">Шаурма — 1700 ₸</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1548365328-8b849f6b3f5e">
+<div class="price">Пицца — 2500 ₸</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87">
+<div class="price">Кола — 600 ₸</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1527169402691-a0f5a7eacbc5">
+<div class="price">Лимонад — 800 ₸</div>
+</div>
+
 </div>
 
 </body>
