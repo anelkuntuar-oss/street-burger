@@ -26,46 +26,38 @@ text-decoration:none;
 font-size:18px;
 }
 
-h1{
+h1,h2{
 color:orange;
-margin:30px 0 10px;
-}
-
-.section{
 margin-top:40px;
 }
 
-.menu{
+.section{
+margin:40px 0;
+}
+
+.cards{
 display:flex;
-flex-wrap:wrap;
 justify-content:center;
-gap:25px;
-padding:20px;
+flex-wrap:wrap;
+gap:30px;
 }
 
 .card{
 background:#222;
-border-radius:15px;
-width:260px;
 padding:15px;
+border-radius:15px;
+width:220px;
 }
 
 .card img{
 width:100%;
-height:200px;
-object-fit:cover;
-border-radius:12px;
-}
-
-.name{
-margin-top:10px;
-font-size:18px;
+border-radius:10px;
 }
 
 .price{
 color:orange;
+margin-top:10px;
 font-size:18px;
-margin-top:5px;
 }
 </style>
 </head>
@@ -75,23 +67,110 @@ margin-top:5px;
 <nav>
 <a href="index.html">Главная</a>
 <a href="menu.html">Меню</a>
+<a href="about.html">О нас</a>
 </nav>
 
 <h1>🍔 Наше меню</h1>
 
 <!-- БУРГЕРЫ -->
 <div class="section">
-<h1>Бургеры</h1>
-
-<div class="menu">
+<h2>Бургеры</h2>
+<div class="cards">
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd">
-<div class="name">Классический бургер</div>
+<img src="burger1.jpg">
+<p>Классический бургер</p>
 <div class="price">1800 ₸</div>
 </div>
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1553979459-d2229ba7433b">
-<div class="name">Чизбургер</div>
-<div class="price">200
+<img src="burger2.jpg">
+<p>Чизбургер</p>
+<div class="price">2000 ₸</div>
+</div>
+
+</div>
+</div>
+
+<!-- ПИЦЦА -->
+<div class="section">
+<h2>🍕 Пицца</h2>
+<div class="cards">
+
+<div class="card">
+<img src="pizza1.jpg">
+<p>Пепперони</p>
+<div class="price">3500 ₸</div>
+</div>
+
+<div class="card">
+<img src="pizza2.jpg">
+<p>4 Сыра</p>
+<div class="price">3800 ₸</div>
+</div>
+
+</div>
+</div>
+
+<!-- ШАУРМА -->
+<div class="section">
+<h2>🌯 Шаурма</h2>
+<div class="cards">
+
+<div class="card">
+<img src="shawarma1.jpg">
+<p>Куриная шаурма</p>
+<div class="price">1700 ₸</div>
+</div>
+
+<div class="card">
+<img src="shawarma2.jpg">
+<p>Говяжья шаурма</p>
+<div class="price">2000 ₸</div>
+</div>
+
+</div>
+</div>
+
+<!-- НАПИТКИ -->
+<div class="section">
+<h2>🥤 Напитки</h2>
+<div class="cards">
+
+<div class="card">
+<img src="cola.jpg">
+<p>Coca-Cola</p>
+<div class="price">600 ₸</div>
+</div>
+
+<div class="card">
+<img src="fanta.jpg">
+<p>Fanta</p>
+<div class="price">600 ₸</div>
+</div>
+
+</div>
+</div>
+
+<!-- ЛИМОНАДЫ -->
+<div class="section">
+<h2>🍋 Лимонады</h2>
+<div class="cards">
+
+<div class="card">
+<img src="lemonade1.jpg">
+<p>Клубничный лимонад</p>
+<div class="price">900 ₸</div>
+</div>
+
+<div class="card">
+<img src="lemonade2.jpg">
+<p>Мохито</p>
+<div class="price">1000 ₸</div>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>
